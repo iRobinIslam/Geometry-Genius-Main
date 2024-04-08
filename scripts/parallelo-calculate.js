@@ -1,9 +1,9 @@
-function calculatePentagonArea() {
-  const perimeter = getInputValueById('pentagon-perimeter');
-  const apothem = getInputValueById('pentagon-apothem');
-  console.log(perimeter, apothem);
-  const area = 0.5 * perimeter * apothem;
-  setInnerTextById('pentagon-area', area);
+function calculateParallelogramArea() {
+  const base = getInputValueById('parallelogram-base');
+  const height = getInputValueById('parallelogram-height');
+  // console.log(base, height);
+  const area = base * height;
+  setInnerTextById('parallelogram-area', area);
 }
 
 function getInputValueById(inputFieldId) {

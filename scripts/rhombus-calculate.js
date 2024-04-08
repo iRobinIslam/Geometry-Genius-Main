@@ -1,9 +1,9 @@
-function calculatePentagonArea() {
-  const perimeter = getInputValueById('pentagon-perimeter');
-  const apothem = getInputValueById('pentagon-apothem');
-  console.log(perimeter, apothem);
-  const area = 0.5 * perimeter * apothem;
-  setInnerTextById('pentagon-area', area);
+function calculateRhombusArea() {
+  const diagonals1 = getInputValueById('rhombus-diagonals-1');
+  const diagonals2 = getInputValueById('rhombus-diagonals-2');
+  // console.log(diagonals1, diagonals2);
+  const area = 0.5 * diagonals1 * diagonals2;
+  setInnerTextById('rhombus-area', area);
 }
 
 function getInputValueById(inputFieldId) {

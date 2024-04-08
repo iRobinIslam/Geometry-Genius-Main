@@ -1,9 +1,9 @@
-function calculatePentagonArea() {
-  const perimeter = getInputValueById('pentagon-perimeter');
-  const apothem = getInputValueById('pentagon-apothem');
-  console.log(perimeter, apothem);
-  const area = 0.5 * perimeter * apothem;
-  setInnerTextById('pentagon-area', area);
+function calculateEllipseArea() {
+  const majorRadius = getInputValueById('ellipse-major-radius');
+  const minorRadius = getInputValueById('ellipse-minor-radius');
+  // console.log(majorRadius, minorRadius);
+  const area = 3.14 * majorRadius * minorRadius;
+  setInnerTextById('ellipse-area', area);
 }
 
 function getInputValueById(inputFieldId) {
